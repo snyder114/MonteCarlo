@@ -10,7 +10,7 @@ The MonteCarlo package contains the following main functions:
 | Function      | Description |
 | ----------- | ----------- |
 | `MonteCarlo()`| Runs a simulation study for a user-defined parameter grid. This function handles the generation of loops over these parameter grids and parallelizes the computation on a user-specified number of CPU units. |
-| `MakeTable(` | Creates LaTeX tables from the output of `MonteCarlo()`. This function stacks high-dimensional output arrays into tables with a user-specified ordering of rows and columns.|
+| `MakeTable()` | Creates LaTeX tables from the output of `MonteCarlo()`. This function stacks high-dimensional output arrays into tables with a user-specified ordering of rows and columns.|
 
 To run a simulation study, you need to create a function that performs the following nested tasks:
 
