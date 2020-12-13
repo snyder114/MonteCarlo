@@ -222,27 +222,27 @@ The following table lists additional arguments for the `MonteCarlo()` function. 
 </tr>
 <tr class="even">
 <td align="center">ncpus</td>
-  <td align="left">An integer specifying the number of CPUs to use. Default is <i>ncpus=1</i>. If <i>ncpus</i> is greater than 1, the simulation is parallized automatically using the <i>ncpus</i> CPU units.</td>
+  <td align="left">An integer specifying the number of CPUs to use. Default is 1. If <i>ncpus</i> is greater than 1, the simulation is parallized automatically using the <i>ncpus</i> CPU units.</td>
 </tr>
 <tr class="odd">
 <td align="center">max_grid</td>
-<td align="left">An integer that specifies for which grid size to throw an error, if the size becomes too large. Default is <i>max_grid=1000</i>.</td>
+<td align="left">An integer that specifies for which grid size to throw an error, if the size becomes too large. Default is 1000.</td>
 </tr>
 <tr class="even">
 <td align="center">time_n_test</td>
-<td align="left">A boolean that specifies whether to estimate the required simulation time. This argument is useful for large simulations or slow functions. Default is time_n_test=FALSE.</td>
+<td align="left">A boolean that specifies whether to estimate the required simulation time. This argument is useful for large simulations or slow functions. Default is FALSE.</td>
 </tr>
 <tr class="odd">
 <td align="center">save_res</td>
-  <td align="left">A boolean that specifies whether to save the results of <i>time_n_test</i> to the current directory. Default is <i>save_res=FALSE</i>.</td>
+  <td align="left">A boolean that specifies whether to save the results of <i>time_n_test</i> to the current directory. Default is FALSE.</td>
 </tr>
 <tr class="even">
 <td align="center">raw</td>
-<td align="left">A boolean that specifies whether to average the output over the *nrep* repetitions. Default is <i>raw=TRUE</i>.</td>
+<td align="left">A boolean that specifies whether to average the output over the *nrep* repetitions. Default is TRUE.</td>
 </tr>
 <tr class="odd">
 <td align="center">export\_also</td>
-<td align="left">A list of additional objects to export to the cluster. Use this argument to export data or bypass the automatic export of functions. Default is <i>export\_also=NULL</i>.</td>
+<td align="left">A list of additional objects to export to the cluster. Use this argument to export data or bypass the automatic export of functions. Default is NULL.</td>
 </tr>
 </tbody>
 </table>
@@ -278,7 +278,7 @@ The following table lists additional arguments for the `MakeTable()` function. T
 </tr>
 <tr class="even">
 <td align="center">digits</td>
-  <td align="left">The number of digits displayed in table. Default is <i>digits=4</i>.</td>
+  <td align="left">The number of digits displayed in table. Default is 4.</td>
 </tr>
 <tr class="odd">
 <td align="center">collapse</td>
@@ -290,11 +290,11 @@ The following table lists additional arguments for the `MakeTable()` function. T
 </tr>
 <tr class="odd">
 <td align="center">include_meta</td>
-<td align="left">A boolean that determines whether the metadata provided by the *summary()* function is included in comments below the table. Default is <i>include_meta==TRUE</i>.</td>
+<td align="left">A boolean that determines whether the metadata provided by the *summary()* function is included in comments below the table. Default is TRUE.</td>
 </tr>
 <tr class="even">
 <td align="center">width_mult</td>
-<td align="left">The scaling factor for the width of the output table. Default is <i>width_mult=1</i>.</td>
+<td align="left">The scaling factor for the width of the output table. Default is 1.</td>
 </tr>
 <tr class="odd">
 <td align="center">partial_grid</td>
