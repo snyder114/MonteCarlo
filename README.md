@@ -54,7 +54,7 @@ ttest<-function(n,loc,scale){
 }
 ```
 
-As discussed in the previous section, the *ttest()* function is formulated to generate a single test decision. The function arguments are the parameters you're interested in. The *ttest()* function perform the following steps:
+As discussed in the previous section, the `ttest()` function is formulated to generate a single test decision. The function arguments are the parameters you're interested in. The `ttest()` function perform the following tasks:
 
 1.  Draws a sample of *n* observations from a normal distribution with mean *loc* and standard deviation *scale*.
 2.  Calculates the t-statistic.
@@ -74,7 +74,7 @@ You then define the combinations of parameters you're interested in and collect 
   param_list=list("n"=n_grid, "loc"=loc_grid, "scale"=scale_grid)
 ```
 
-To run the simulation, pass the function *ttest()* and the parameter grid (*param\_list*) to the `MonteCarlo()` function with the desired number of MonteCarlo repetitions (*nrep=1000*):
+To run the simulation, pass the `ttest()` function and the parameter grid (*param\_list*) to the `MonteCarlo()` function with the desired number of MonteCarlo repetitions (*nrep=1000*):
 
 ``` r
 # Run the simulation:
@@ -84,7 +84,7 @@ To run the simulation, pass the function *ttest()* and the parameter grid (*para
 
 No further coding is required. The `MonteCarlo()` function handles the mechanics of the MonteCarlo experiment.
 
-Call the *summary()* function to get a short description of the simulation:
+Call the `summary()` function to get a short description of the simulation:
 
 ``` r
   summary(MC_result)
@@ -184,7 +184,7 @@ To change the order of the rows and columns, modify the *rows* and *cols* argume
     ## \caption{ decision  }
     ## \end{table}
 
-Now you can copy the code and add it to our paper, report, or presentation. This automated process lets you focus on the design of your experiment and the interpretation of the results.
+Now you can copy the code and add it to a paper, report, or presentation. This automated process lets you focus on the design of your experiment and the interpretation of the results.
 
 Additional package functionality
 =================================
@@ -286,7 +286,7 @@ The following table lists additional arguments for the `MakeTable()` function. T
 </tr>
 <tr class="even">
 <td align="center">transform</td>
-<td align="left">An optional argument that transforms the output table. For example, you could transform the output from mean squared error (MSE) to root mean squared error (RMSE). If you supply a function, it's applied to all tables. Alternatively, you can supply a list of functions of the same length as the output. For tables that are supposed to remain unchanged, set the list element to <i>NULL</i>.</td>
+<td align="left">An optional function that transforms the output table. For example, you could transform the output from mean squared error (MSE) to root mean squared error (RMSE). The function is applied to all tables. Alternatively, you can supply a list of functions of the same length as the output. For tables that are supposed to remain unchanged, set the list element to <i>NULL</i>.</td>
 </tr>
 <tr class="odd">
 <td align="center">include_meta</td>
