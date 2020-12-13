@@ -127,7 +127,7 @@ To summarize the results in a reasonable way and include them as a table in a pa
 To determine the order of the rows and columns in the LaTeX table, supply the function arguments *rows* and *cols*. These arguments are the vectors of the parameter names in the order you want them to appear in the table. In this example, they're sorted from the inside to the outside.
 
 ``` r
-# Genrate a table:
+# Generate a table:
 
   MakeTable(output=MC_result, rows="n", cols=c("loc","scale"), digits=2, include_meta=FALSE)
 ```
@@ -194,7 +194,7 @@ The MonteCarlo package provides several arguments that modify the behavior of th
 The MonteCarlo() Function
 -------------------------
 
-The following table lists additional arguments for the `MonteCarlo()` function. The most important arguments are *export\_also* which is needed to export datasets if they're required in a parallezied simulation, and *time\_n\_test* which produces an estimate of the time required for the desired simulation.
+The following table lists additional arguments for the `MonteCarlo()` function. The most important arguments are *export\_also* which is needed to export datasets if they're required in a parallelized simulation, and *time\_n\_test* which produces an estimate of the time required for the desired simulation.
 
 <table style="width:83%;">
 <colgroup>
@@ -278,7 +278,7 @@ The following table lists additional arguments for the `MakeTable()` function. T
 </tr>
 <tr class="even">
 <td align="center">digits</td>
-  <td align="left">The number of digits displayed in table. Default is 4.</td>
+  <td align="left">The number of digits displayed in a table. Default is 4.</td>
 </tr>
 <tr class="odd">
 <td align="center">collapse</td>
