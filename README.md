@@ -1,5 +1,23 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+**Why you picked this section**
+
+I picked this section because it had a lot of potential for improvement in formatting and sentence construction. There was also a lot more context around the content in GitHub compared to the other article, so I knew I could look through the repo if I was unsure about a term or concept.
+
+**How you improved this section**
+
+* Ensured conformity to the Google Developer Documentation Style Guide
+* Reformatted for readability and clarity (ex. Adding tables, lists, etc.)
+* Rewrote lots of sentences to remove passive voice
+* Added descriptions and links (when possible) for ambiguous terms 
+* Improved overall consistency of wording and among sections
+
+**Description**
+
+This documentation describes how to use the MonteCarlo package. The package simplifies MonteCarlo simulation studies by automatically setting up loops to run over parameter grids and parallelizing the MonteCarlo repetitions. It also generates LaTeX tables. The documentation includes an overview of the package and descriptions of its main functions. It also provides an example with sample functions that demonstrates how to evaluate the performance of a standard t-test for a given hypothesis. Finally, it highlights additional arguments you can use to enhance the functionality of the functions in the package.
+
+
 The MonteCarlo Package
 ======================
 
